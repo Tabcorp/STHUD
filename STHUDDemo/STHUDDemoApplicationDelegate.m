@@ -15,7 +15,7 @@
 
 
 STHUDDemoApplicationDelegate *STHUDDemoSharedApplicationDelegate(void) {
-	return UIApplication.sharedApplication.delegate;
+	return (STHUDDemoApplicationDelegate *)UIApplication.sharedApplication.delegate;
 }
 
 

@@ -10,9 +10,7 @@
 //
 
 #import <STHUD/STHUDDefaultHostView.h>
-
 #import <STHUD/STHUDDefaultHUDView.h>
-
 
 static const NSTimeInterval kSTHUDDefaultHostViewHUDViewAnimationDuration = .2f;
 
