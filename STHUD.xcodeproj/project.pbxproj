@@ -17,12 +17,6 @@
 		2CDE1D2515D3EA0D002AA53C /* STHUDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D2415D3EA0D002AA53C /* STHUDDemoViewController.m */; };
 		B7F109AE222F2D7C00C44DE6 /* STGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDE1D9B15D7B877002AA53C /* STGeometry.h */; };
 		B7F109AF222F32A800C44DE6 /* STHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB623E86221FA86A00F122B6 /* STHUD.framework */; };
-		B7F109B9222F33C600C44DE6 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B3222F33C600C44DE6 /* Project-Release.xcconfig */; };
-		B7F109BA222F33C600C44DE6 /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B4222F33C600C44DE6 /* Warnings.xcconfig */; };
-		B7F109BB222F33C600C44DE6 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B5222F33C600C44DE6 /* Project.xcconfig */; };
-		B7F109BC222F33C600C44DE6 /* ExampleTarget-ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */; };
-		B7F109BD222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */; };
-		B7F109BE222F33C600C44DE6 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B8222F33C600C44DE6 /* Project-Debug.xcconfig */; };
 		CB623E8A221FA86A00F122B6 /* STHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CB623E88221FA86A00F122B6 /* STHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB623E8F221FA87200F122B6 /* STHUDHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D9715D7AEAF002AA53C /* STHUDHost.m */; };
 		CB623E91221FA87200F122B6 /* STHUDBaseHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55125B18A8D40D00CFB4EA /* STHUDBaseHostView.m */; };
@@ -265,7 +259,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = ST;
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Scott Talbot";
 				TargetAttributes = {
 					2CDE1D0615D3EA0D002AA53C = {
@@ -300,12 +294,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7F109BD222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig in Resources */,
-				B7F109BC222F33C600C44DE6 /* ExampleTarget-ios.xcconfig in Resources */,
-				B7F109BA222F33C600C44DE6 /* Warnings.xcconfig in Resources */,
-				B7F109B9222F33C600C44DE6 /* Project-Release.xcconfig in Resources */,
-				B7F109BE222F33C600C44DE6 /* Project-Debug.xcconfig in Resources */,
-				B7F109BB222F33C600C44DE6 /* Project.xcconfig in Resources */,
 				2C8379481611C21F00BE166B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +484,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -550,7 +538,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
