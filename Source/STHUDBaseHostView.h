@@ -11,7 +11,10 @@
 
 #import <UIKit/UIKit.h>
 
-#import <STHUD/STHUDHost.h>
+@class STHUD;
+
+@protocol STHUDHost;
+@protocol STHUDHostImplementation;
 
 @interface STHUDBaseHostView : UIView<STHUDHost,STHUDHostImplementation>
 - (BOOL)addHUD:(STHUD *)hud __attribute__((objc_requires_super));

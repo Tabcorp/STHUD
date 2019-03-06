@@ -7,9 +7,7 @@
 
 #import "STHUDDemoApplicationDelegate.h"
 
-#import <STHUD/STHUD.h>
-#import <STHUD/STHUDDefaultHostView.h>
-#import <STHUD/STHUDNewShinyHostView.h>
+@import STHUD;
 
 #import "STHUDDemoViewController.h"
 

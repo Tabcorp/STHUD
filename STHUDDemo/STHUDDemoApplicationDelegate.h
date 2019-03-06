@@ -17,4 +17,4 @@
 @property (nonatomic,strong,readonly) id<STHUDHost> shinyHUDHost;
 @end
 
-extern STHUDDemoApplicationDelegate *STHUDDemoSharedApplicationDelegate();
+extern STHUDDemoApplicationDelegate *STHUDDemoSharedApplicationDelegate(void);

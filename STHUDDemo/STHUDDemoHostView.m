@@ -32,7 +32,8 @@
 		};
 		CGPathRef path = CGPathCreateWithEllipseInRect(hudCircleRect, NULL);
 		layer.path = path;
-		CGPathRelease(path), path = NULL;
+		CGPathRelease(path);
+		path = NULL;
 	}
 	return self;
 }

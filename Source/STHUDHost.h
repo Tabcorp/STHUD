@@ -14,7 +14,7 @@
 
 @class STHUD;
 
-NS_ENUM(NSUInteger, STHUDState) {
+typedef NS_ENUM(NSUInteger, STHUDState) {
 	STHUDStateIndeterminate = 1,
 	STHUDStateSuccessful,
 	STHUDStateFailed,

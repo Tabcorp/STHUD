@@ -7,18 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C55125C18A8D40D00CFB4EA /* STHUDBaseHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55125B18A8D40D00CFB4EA /* STHUDBaseHostView.m */; };
 		2C55125F18A8D59300CFB4EA /* STHUDDemoHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55125E18A8D59300CFB4EA /* STHUDDemoHostView.m */; };
 		2C8379481611C21F00BE166B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C8379471611C21F00BE166B /* Default-568h@2x.png */; };
-		2C8379761611C7C900BE166B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE1D0D15D3EA0D002AA53C /* Foundation.framework */; };
-		2C8379831611C7E200BE166B /* STGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D9915D7B86D002AA53C /* STGeometry.m */; };
-		2C8379871611C8D700BE166B /* STHUDHost.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2CDE1D9615D7AEAF002AA53C /* STHUDHost.h */; };
-		2C8379881611C8EA00BE166B /* STHUDHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D9715D7AEAF002AA53C /* STHUDHost.m */; };
-		2C8379891611C9D700BE166B /* libSTHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8379751611C7C900BE166B /* libSTHUD.a */; };
-		2C83798C1611D1BE00BE166B /* STHUDDefaultHUDView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83798B1611D1BE00BE166B /* STHUDDefaultHUDView.m */; };
-		2C83798F1611E9F300BE166B /* STHUDDefaultHUDViewImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C83798E1611E9F300BE166B /* STHUDDefaultHUDViewImageData.m */; };
-		2CBEEF2019C85E73005096DE /* STHUDDefaultHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEEF1F19C85E73005096DE /* STHUDDefaultHostView.m */; };
-		2CBEEF2319C864E4005096DE /* STHUDNewShinyHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBEEF2219C864E4005096DE /* STHUDNewShinyHostView.m */; };
 		2CDE1D0C15D3EA0D002AA53C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE1D0B15D3EA0D002AA53C /* UIKit.framework */; };
 		2CDE1D0E15D3EA0D002AA53C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE1D0D15D3EA0D002AA53C /* Foundation.framework */; };
 		2CDE1D1015D3EA0D002AA53C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDE1D0F15D3EA0D002AA53C /* CoreGraphics.framework */; };
@@ -26,6 +16,13 @@
 		2CDE1D1C15D3EA0D002AA53C /* STHUDDemoApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D1B15D3EA0D002AA53C /* STHUDDemoApplicationDelegate.m */; };
 		2CDE1D2515D3EA0D002AA53C /* STHUDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D2415D3EA0D002AA53C /* STHUDDemoViewController.m */; };
 		B7F109AE222F2D7C00C44DE6 /* STGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CDE1D9B15D7B877002AA53C /* STGeometry.h */; };
+		B7F109AF222F32A800C44DE6 /* STHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB623E86221FA86A00F122B6 /* STHUD.framework */; };
+		B7F109B9222F33C600C44DE6 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B3222F33C600C44DE6 /* Project-Release.xcconfig */; };
+		B7F109BA222F33C600C44DE6 /* Warnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B4222F33C600C44DE6 /* Warnings.xcconfig */; };
+		B7F109BB222F33C600C44DE6 /* Project.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B5222F33C600C44DE6 /* Project.xcconfig */; };
+		B7F109BC222F33C600C44DE6 /* ExampleTarget-ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */; };
+		B7F109BD222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */; };
+		B7F109BE222F33C600C44DE6 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = B7F109B8222F33C600C44DE6 /* Project-Debug.xcconfig */; };
 		CB623E8A221FA86A00F122B6 /* STHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CB623E88221FA86A00F122B6 /* STHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB623E8F221FA87200F122B6 /* STHUDHost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CDE1D9715D7AEAF002AA53C /* STHUDHost.m */; };
 		CB623E91221FA87200F122B6 /* STHUDBaseHostView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C55125B18A8D40D00CFB4EA /* STHUDBaseHostView.m */; };
@@ -43,38 +40,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C8379811611C7D400BE166B /* PBXContainerItemProxy */ = {
+		B7F109B0222F32BD00C44DE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2CDE1CFE15D3EA0D002AA53C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C8379741611C7C900BE166B;
-			remoteInfo = STHUD;
+			remoteGlobalIDString = CB623E85221FA86A00F122B6;
+			remoteInfo = "STHUD-framework";
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2C8379731611C7C900BE166B /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 8;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				2C8379871611C8D700BE166B /* STHUDHost.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		2C2FDE961625873600BDF161 /* STHUD.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = STHUD.xcconfig; sourceTree = "<group>"; };
-		2C2FDE971625876200BDF161 /* STHUD-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "STHUD-Debug.xcconfig"; sourceTree = "<group>"; };
-		2C2FDE981625877D00BDF161 /* STHUD-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "STHUD-Release.xcconfig"; sourceTree = "<group>"; };
 		2C55125A18A8D40D00CFB4EA /* STHUDBaseHostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHUDBaseHostView.h; sourceTree = "<group>"; };
 		2C55125B18A8D40D00CFB4EA /* STHUDBaseHostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHUDBaseHostView.m; sourceTree = "<group>"; };
 		2C55125D18A8D59300CFB4EA /* STHUDDemoHostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHUDDemoHostView.h; sourceTree = "<group>"; };
 		2C55125E18A8D59300CFB4EA /* STHUDDemoHostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHUDDemoHostView.m; sourceTree = "<group>"; };
 		2C8379471611C21F00BE166B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		2C8379751611C7C900BE166B /* libSTHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSTHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C83798A1611D1BE00BE166B /* STHUDDefaultHUDView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHUDDefaultHUDView.h; sourceTree = "<group>"; };
 		2C83798B1611D1BE00BE166B /* STHUDDefaultHUDView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHUDDefaultHUDView.m; sourceTree = "<group>"; };
 		2C83798D1611E9F300BE166B /* STHUDDefaultHUDViewImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHUDDefaultHUDViewImageData.h; sourceTree = "<group>"; };
@@ -97,27 +77,26 @@
 		2CDE1D9715D7AEAF002AA53C /* STHUDHost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHUDHost.m; sourceTree = "<group>"; };
 		2CDE1D9915D7B86D002AA53C /* STGeometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STGeometry.m; sourceTree = "<group>"; };
 		2CDE1D9B15D7B877002AA53C /* STGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STGeometry.h; sourceTree = "<group>"; };
+		B7F109B3222F33C600C44DE6 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		B7F109B4222F33C600C44DE6 /* Warnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		B7F109B5222F33C600C44DE6 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "ExampleTarget-ios.xcconfig"; sourceTree = "<group>"; };
+		B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "FrameworkTarget-ios.xcconfig"; sourceTree = "<group>"; };
+		B7F109B8222F33C600C44DE6 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		B7F109BF222F34F400C44DE6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CB623E86221FA86A00F122B6 /* STHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB623E88221FA86A00F122B6 /* STHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2C8379721611C7C900BE166B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C8379761611C7C900BE166B /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CDE1D0415D3EA0D002AA53C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F109AF222F32A800C44DE6 /* STHUD.framework in Frameworks */,
 				2CDE1D0C15D3EA0D002AA53C /* UIKit.framework in Frameworks */,
 				2CDE1D0E15D3EA0D002AA53C /* Foundation.framework in Frameworks */,
 				2CDE1D1015D3EA0D002AA53C /* CoreGraphics.framework in Frameworks */,
-				2C8379891611C9D700BE166B /* libSTHUD.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +121,8 @@
 		2CDE1CFC15D3EA0D002AA53C = {
 			isa = PBXGroup;
 			children = (
-				2CDE1D9515D7AE8C002AA53C /* STHUD */,
+				2CDE1D9515D7AE8C002AA53C /* Source */,
+				B7F109B2222F33C600C44DE6 /* Configuration */,
 				2CDE1D1115D3EA0D002AA53C /* STHUDDemo */,
 				2CDE1D0A15D3EA0D002AA53C /* Frameworks */,
 				2CDE1D0815D3EA0D002AA53C /* Products */,
@@ -154,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				2CDE1D0715D3EA0D002AA53C /* STHUDDemo.app */,
-				2C8379751611C7C900BE166B /* libSTHUD.a */,
 				CB623E86221FA86A00F122B6 /* STHUD.framework */,
 			);
 			name = Products;
@@ -186,9 +165,10 @@
 			path = STHUDDemo;
 			sourceTree = "<group>";
 		};
-		2CDE1D9515D7AE8C002AA53C /* STHUD */ = {
+		2CDE1D9515D7AE8C002AA53C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B7F109BF222F34F400C44DE6 /* Info.plist */,
 				CB623E88221FA86A00F122B6 /* STHUD.h */,
 				2CDE1D9615D7AEAF002AA53C /* STHUDHost.h */,
 				2CDE1D9715D7AEAF002AA53C /* STHUDHost.m */,
@@ -204,11 +184,21 @@
 				2CBEEF2219C864E4005096DE /* STHUDNewShinyHostView.m */,
 				2CDE1D9B15D7B877002AA53C /* STGeometry.h */,
 				2CDE1D9915D7B86D002AA53C /* STGeometry.m */,
-				2C2FDE961625873600BDF161 /* STHUD.xcconfig */,
-				2C2FDE971625876200BDF161 /* STHUD-Debug.xcconfig */,
-				2C2FDE981625877D00BDF161 /* STHUD-Release.xcconfig */,
 			);
-			path = STHUD;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B7F109B2222F33C600C44DE6 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				B7F109B3222F33C600C44DE6 /* Project-Release.xcconfig */,
+				B7F109B4222F33C600C44DE6 /* Warnings.xcconfig */,
+				B7F109B5222F33C600C44DE6 /* Project.xcconfig */,
+				B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */,
+				B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */,
+				B7F109B8222F33C600C44DE6 /* Project-Debug.xcconfig */,
+			);
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,23 +222,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2C8379741611C7C900BE166B /* STHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2C83797E1611C7C900BE166B /* Build configuration list for PBXNativeTarget "STHUD" */;
-			buildPhases = (
-				2C8379711611C7C900BE166B /* Sources */,
-				2C8379721611C7C900BE166B /* Frameworks */,
-				2C8379731611C7C900BE166B /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = STHUD;
-			productName = STHUD;
-			productReference = 2C8379751611C7C900BE166B /* libSTHUD.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		2CDE1D0615D3EA0D002AA53C /* STHUDDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CDE1D3D15D3EA0D002AA53C /* Build configuration list for PBXNativeTarget "STHUDDemo" */;
@@ -260,7 +233,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2C8379821611C7D400BE166B /* PBXTargetDependency */,
+				B7F109B1222F32BD00C44DE6 /* PBXTargetDependency */,
 			);
 			name = STHUDDemo;
 			productName = STHUD;
@@ -295,6 +268,9 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Scott Talbot";
 				TargetAttributes = {
+					2CDE1D0615D3EA0D002AA53C = {
+						ProvisioningStyle = Automatic;
+					};
 					CB623E85221FA86A00F122B6 = {
 						CreatedOnToolsVersion = 10.1;
 						ProvisioningStyle = Automatic;
@@ -313,7 +289,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2C8379741611C7C900BE166B /* STHUD */,
 				2CDE1D0615D3EA0D002AA53C /* STHUDDemo */,
 				CB623E85221FA86A00F122B6 /* STHUD-framework */,
 			);
@@ -325,6 +300,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F109BD222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig in Resources */,
+				B7F109BC222F33C600C44DE6 /* ExampleTarget-ios.xcconfig in Resources */,
+				B7F109BA222F33C600C44DE6 /* Warnings.xcconfig in Resources */,
+				B7F109B9222F33C600C44DE6 /* Project-Release.xcconfig in Resources */,
+				B7F109BE222F33C600C44DE6 /* Project-Debug.xcconfig in Resources */,
+				B7F109BB222F33C600C44DE6 /* Project.xcconfig in Resources */,
 				2C8379481611C21F00BE166B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,20 +320,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2C8379711611C7C900BE166B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2C8379831611C7E200BE166B /* STGeometry.m in Sources */,
-				2CBEEF2019C85E73005096DE /* STHUDDefaultHostView.m in Sources */,
-				2C8379881611C8EA00BE166B /* STHUDHost.m in Sources */,
-				2C55125C18A8D40D00CFB4EA /* STHUDBaseHostView.m in Sources */,
-				2C83798C1611D1BE00BE166B /* STHUDDefaultHUDView.m in Sources */,
-				2CBEEF2319C864E4005096DE /* STHUDNewShinyHostView.m in Sources */,
-				2C83798F1611E9F300BE166B /* STHUDDefaultHUDViewImageData.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CDE1D0315D3EA0D002AA53C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,30 +348,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2C8379821611C7D400BE166B /* PBXTargetDependency */ = {
+		B7F109B1222F32BD00C44DE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2C8379741611C7C900BE166B /* STHUD */;
-			targetProxy = 2C8379811611C7D400BE166B /* PBXContainerItemProxy */;
+			target = CB623E85221FA86A00F122B6 /* STHUD-framework */;
+			targetProxy = B7F109B0222F32BD00C44DE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2C83797F1611C7C900BE166B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2FDE971625876200BDF161 /* STHUD-Debug.xcconfig */;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		2C8379801611C7C900BE166B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2C2FDE981625877D00BDF161 /* STHUD-Release.xcconfig */;
-			buildSettings = {
-			};
-			name = Release;
-		};
 		2CDE1D3B15D3EA0D002AA53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B8222F33C600C44DE6 /* Project-Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -446,6 +400,7 @@
 		};
 		2CDE1D3C15D3EA0D002AA53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B3222F33C600C44DE6 /* Project-Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -482,8 +437,10 @@
 		};
 		2CDE1D3E15D3EA0D002AA53C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(inherited)",
@@ -497,8 +454,10 @@
 		};
 		2CDE1D3F15D3EA0D002AA53C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B6222F33C600C44DE6 /* ExampleTarget-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)",
 					"$(inherited)",
@@ -512,6 +471,7 @@
 		};
 		CB623E8B221FA86A00F122B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -543,7 +503,6 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -553,15 +512,10 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = STHUD/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.tabcorp.STHUD.STHUD-framework";
-				PRODUCT_NAME = STHUD;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -571,6 +525,7 @@
 		};
 		CB623E8C221FA86A00F122B6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F109B7222F33C600C44DE6 /* FrameworkTarget-ios.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -603,7 +558,6 @@
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -613,14 +567,9 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
-				INFOPLIST_FILE = STHUD/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "au.com.tabcorp.STHUD.STHUD-framework";
-				PRODUCT_NAME = STHUD;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -631,15 +580,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C83797E1611C7C900BE166B /* Build configuration list for PBXNativeTarget "STHUD" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2C83797F1611C7C900BE166B /* Debug */,
-				2C8379801611C7C900BE166B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2CDE1D0115D3EA0D002AA53C /* Build configuration list for PBXProject "STHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -6,10 +6,9 @@
 //
 
 @import QuartzCore;
+@import STHUD;
 
 #import "STHUDDemoViewController.h"
-
-#import <STHUD/STHUD.h>
 
 #import "STHUDDemoApplicationDelegate.h"
 #import "STHUDDemoHostView.h"
@@ -27,10 +26,6 @@
 
 + (id)viewController {
 	return [[self alloc] initWithNibName:nil bundle:nil];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation __unused)toInterfaceOrientation {
-	return YES;
 }
 
 - (BOOL)shouldAutorotate {
